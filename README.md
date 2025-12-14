@@ -96,6 +96,22 @@ Furthermore, to teach the robot a new task—such as building a four-floor tower
 
 From a user-interaction perspective, the solution is designed for simplicity. Once the environment is set up and the inference script is initiated, the robot operates fully autonomously. It requires no complex commands or manual interventions to complete its construction task, making it highly accessible.
 
+Thanks to this simplicity, the project can be run in one command (you only need to change hardware path to match yours):
+```
+python -m lerobot.async_inference.robot_client \
+    --server_address=127.0.0.1:8080 \
+    --robot.type=so101_follower \
+    --robot.port=/dev/ttyACM0 \
+    --robot.id=my_awesome_follower_arm \
+    --robot.cameras="{top: {type: opencv, index_or_path: 2, width: 320, height: 240, fps: 20}, grip: {type: opencv, index_or_path: 4, width: 320, height: 240, fps: 20},side: {type: opencv, index_or_path: 6, width: 320, height: 240, fps: 20}}" \
+    --policy_type=act \
+    --pretrained_name_or_path=LeTeamAMDHackhaton/BobLeBuilder \
+    --actions_per_chunk=50 \
+    --chunk_size_threshold=0.5 \
+    --aggregate_fn_name=weighted_average \
+    --debug_visualize_queue_size=True
+```
+
 Our project successfully combines a creative, scalable architecture with a straightforward user experience, demonstrating a powerful and adaptable solution.
 
 ### 5 Project Artefacts & Additional Links
