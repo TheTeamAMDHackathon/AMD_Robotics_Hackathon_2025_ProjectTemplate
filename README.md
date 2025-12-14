@@ -48,6 +48,11 @@ This data-centric strategy was complemented by a three-camera setup, providing t
 * Side Camera: Offered precise altitude awareness, which was critical for accurately tracking the current construction floor and ensuring correct vertical placement of each block.
 * Grip Camera: Enabled fine-grained control for the most delicate parts of the task, such as precisely aligning with a block, confirming a successful grasp, and making micro-adjustments during placement.
 
+For the occasion we also designed and 3D printed a feeder to demonstrate the arm gentle and precise interaction to grab Kaplas.
+
+![First part of the Feeder](https://github.com/TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/blob/main/mission/printedmodel.png)
+![Second part of the Feeder](https://github.com/TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/blob/main/mission/printedmodel2.png)
+
 Together, these innovations in data strategy and sensory input create a highly effective and scalable foundation that can be extended to more complex manipulation tasks.
 
 ### 3. Technical implementations
@@ -119,6 +124,9 @@ Our project successfully combines a creative, scalable architecture with a strai
 This section provides direct access to all key project components, ensuring that the judges and the wider community can fully explore and reproduce our work. Our code, datasets, and models are hosted on Hugging Face, complemented by a video demonstration of the final result.
 
 * [Video Demonstration](https://github.com/TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/blob/main/mission/demonstration.mp4)
+* [3D model first part](https://github.com/TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/blob/main/mission/distributeurmirror.stl)
+* [3D model second part](https://github.com/TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/blob/main/mission/distributeur.stl)
+* [3D model third part](https://github.com/TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/blob/main/mission/distribtige.stl)
 * Hugging Face Datasets: 
     * [Final dataset BobLeBuilder_MergedDataset](https://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_MergedDataset)
     * [Layer 2 dataset](https://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_Subset2)
