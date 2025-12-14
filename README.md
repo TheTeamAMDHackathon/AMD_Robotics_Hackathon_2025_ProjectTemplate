@@ -61,12 +61,19 @@ This section provides a comprehensive, step-by-step breakdown of our technical a
 We leveraged the full end-to-end stack provided by AMD and its partners, enabling a seamless development pipeline from data capture to autonomous execution.
 
 | Component	| Description	|
+| ------------- | ------------- |
 | Robotics Kit | Wowrobot SO-101 fully assembled kit, used as the robotic arm.	|
+| ------------- | ------------- |
 | Edge Compute	| Dell Pro Max 16 Laptop with a Ryzen™ AI 9 HX 370 processor for running the final inference application.	|
+| ------------- | ------------- |
 | Cloud Training | AMD Developer Cloud, providing access to high-performance AMD Instinct™ MI300X GPUs for model training.	|
+| ------------- | ------------- |
 | Core Framework | Hugging Face LeRobot, the primary framework for implementing the imitation learning pipeline.	|
+| ------------- | ------------- |
 | ML Library | PyTorch, as the foundational deep learning library used by LeRobot.	|
+| ------------- | ------------- |
 | GPU Software	| AMD ROCm™, the open-software platform enabling GPU-accelerated training.	|
+| ------------- | ------------- |
 | Experiment Tracking | Weights & Biases, used to log and monitor training runs, with results included in the submission.	|
 
 #### 3.2 Teleoperation & Dataset Capture
