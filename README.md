@@ -22,11 +22,9 @@ This summary encapsulates our project's core vision and the tangible outcome we 
 
 The final project, "LeBobLeBuilder," successfully trains a Wowrobot SO-101 robotic arm to autonomously build a three-floor Kapla tower. The robot methodically picks individual blocks from a designated feeder and precisely stacks them, showcasing a high degree of learned dexterity and spatial awareness.
 
-[Insert a compelling image or GIF of the final robot successfully building the Kapla tower here]
-
 This report breaks down our submission, from the real-world applications of our mission to the technical architecture that brought it to life.
 
-*< Images or video demonstrating your project >*
+[Video Demonstration](TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/tree/main/mission/demonstration.mp4)
 
 ## Submission Details
 
@@ -77,8 +75,6 @@ The foundation of our imitation learning approach was high-quality demonstration
 As detailed in our innovation strategy, we captured separate, modular datasets for each sub-task. These were later merged into a single, comprehensive dataset for training. The final merged dataset, [BobLeBuilder_MergedDataset](https://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_MergedDataset).
 To allow merging those through LeRobot framework, we optimized camera recording resolution and framerate.
 
-[Insert image or short video of the teleoperation/dataset capture process here]
-
 #### 3.3 Training
 
 The model training phase was conducted on the AMD Developer Cloud. We leveraged the computational power of the AMD Instinct™ MI300X GPUs to accelerate the training process, allowing us to iterate quickly and fine-tune our policy using the merged dataset.
@@ -89,8 +85,6 @@ For full reproducibility, the complete training logs are provided in the wandb d
 
 We deployed the final trained policy to the AMD Ryzen™ AI-powered Dell laptop. This edge device performed real-time inference, processing the live feeds from the three cameras and sending control commands to the SO-101 robot. This enabled the robot to autonomously execute the full three-floor Kapla construction task, demonstrating a complete and efficient "cloud-to-edge" workflow.
 Thanks to being built on the relatively small ACT as well as decoupling the logic between client and server as to infer in batch, it performed smoothly without junky movements.
-
-[Insert image or short video of the robot performing inference and stacking blocks here]
 
 ### 4. Ease of Use & Generalizability
 
@@ -108,13 +102,14 @@ Our project successfully combines a creative, scalable architecture with a strai
 
 This section provides direct access to all key project components, ensuring that the judges and the wider community can fully explore and reproduce our work. Our code, datasets, and models are hosted on Hugging Face, complemented by a video demonstration of the final result.
 
-* Video Demonstration: [Link to a video of the robot performing the full 3-floor construction task]
+* [Video Demonstration](TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/tree/main/mission/demonstration.mp4)
 * Hugging Face Datasets: 
     * [Final dataset BobLeBuilder_MergedDataset](https://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_MergedDataset)
     * [Layer 2 dataset](https://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_Subset2)
     * [Layer 1 dataset](https://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_Subset1)
     * [Layer 0 dataset](https://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_Subset0)
 * [LeBobLeBuilder Trained Policy](https://huggingface.co/LeTeamAMDHackhaton/BobLeBuilder)
+* [WANDB training run](https://wandb.ai/5160d-ubisoft/lerobot/runs/zzigrw2a?nw=nwuser5160d)
 
 The following section details the structure of our code submission repository.
 
@@ -125,14 +120,4 @@ This is the directory tree of this repo, you need to fill in the `mission` direc
 ```terminal
 AMD_Robotics_Hackathon_2025_ProjectTemplate-main/
 ├── README.md
-└── mission
-    ├── code
-    │   └── <code and script>
-    └── wandb
-        └── <latest run directory copied from wandb of your training job>
 ```
-
-**NOTES**
-
-1. The `latest-run` is the soft link, please make sure to copy the real target directory it linked with all sub dirs and files.
-2. Only provide (upload) the wandb of your last success pre-trained model for the Mission.
