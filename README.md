@@ -124,9 +124,10 @@ Our project successfully combines a creative, scalable architecture with a strai
 This section provides direct access to all key project components, ensuring that the judges and the wider community can fully explore and reproduce our work. Our code, datasets, and models are hosted on Hugging Face, complemented by a video demonstration of the final result.
 
 * [Video Demonstration](https://github.com/TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/blob/main/mission/demonstration.mp4)
-* [3D model first part](https://github.com/TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/blob/main/mission/distributeurmirror.stl)
-* [3D model second part](https://github.com/TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/blob/main/mission/distributeur.stl)
-* [3D model third part](https://github.com/TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/blob/main/mission/distribtige.stl)
+* Feeder 3D model
+    * [3D model first part](https://github.com/TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/blob/main/mission/distributeurmirror.stl)
+    * [3D model second part](https://github.com/TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/blob/main/mission/distributeur.stl)
+    * [3D model third part](https://github.com/TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/blob/main/mission/distribtige.stl)
 * Hugging Face Datasets: 
     * [Final dataset BobLeBuilder_MergedDataset](https://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_MergedDataset)
     * [Layer 2 dataset](https://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_Subset2)
@@ -145,5 +146,5 @@ This is the directory tree of this repo, you need to fill in the `mission` direc
 AMD_Robotics_Hackathon_2025_ProjectTemplate-main/
 ├── README.md
 └── mission
-    ├── <cdemonstration video>
+    ├── <cdemonstration video and 3D model files>
 ```
