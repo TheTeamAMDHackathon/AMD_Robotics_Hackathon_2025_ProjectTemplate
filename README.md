@@ -120,4 +120,6 @@ This is the directory tree of this repo, you need to fill in the `mission` direc
 ```terminal
 AMD_Robotics_Hackathon_2025_ProjectTemplate-main/
 ├── README.md
+└── mission
+    ├── <cdemonstration video>
 ```
