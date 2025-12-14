@@ -1,10 +1,16 @@
-**### Make a fork or copy of this repo and fill in your team submission details! ###**
-
-# AMD_Robotics_Hackathon_2025_[Project Name]
+# AMD_Robotics_Hackathon_2025_LeBobLeBuilder
 
 ## Team Information
 
 **Team:** *Your team number, name of your team, and members*
+
+Number: 12
+Name: TheTeam
+Members: 
+- Adrien Bedel
+- Alexandre Fugier
+- Pierre Sudron
+- Xavier Bureau
 
 **Summary:** *A brief description of your work*
 
