@@ -112,7 +112,7 @@ This section provides direct access to all key project components, ensuring that
 * Hugging Face Datasets: 
     * [Final dataset BobLeBuilder_MergedDataset](https://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_MergedDataset)
     * [Layer 2 dataset](https://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_Subset2)
-    * [Layer 1 dataset](hhttps://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_Subset1)
+    * [Layer 1 dataset](https://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_Subset1)
     * [Layer 0 dataset](https://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_Subset0)
 * [LeBobLeBuilder Trained Policy](https://huggingface.co/LeTeamAMDHackhaton/BobLeBuilder)
 
