@@ -24,7 +24,7 @@ The final project, "LeBobLeBuilder," successfully trains a Wowrobot SO-101 robot
 
 This report breaks down our submission, from the real-world applications of our mission to the technical architecture that brought it to life.
 
-[Video Demonstration](TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/tree/main/mission/demonstration.mp4)
+[Video Demonstration](https://github.com/TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/blob/main/mission/demonstration.mp4)
 
 ## Submission Details
 
@@ -102,7 +102,7 @@ Our project successfully combines a creative, scalable architecture with a strai
 
 This section provides direct access to all key project components, ensuring that the judges and the wider community can fully explore and reproduce our work. Our code, datasets, and models are hosted on Hugging Face, complemented by a video demonstration of the final result.
 
-* [Video Demonstration](TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/tree/main/mission/demonstration.mp4)
+* [Video Demonstration](https://github.com/TheTeamAMDHackathon/AMD_Robotics_Hackathon_2025_ProjectTemplate/blob/main/mission/demonstration.mp4)
 * Hugging Face Datasets: 
     * [Final dataset BobLeBuilder_MergedDataset](https://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_MergedDataset)
     * [Layer 2 dataset](https://huggingface.co/datasets/LeTeamAMDHackhaton/BobLeBuilder_Subset2)
