@@ -1,5 +1,7 @@
 # AMD_Robotics_Hackathon_2025_LeBobLeBuilder
 
+3rd place at the Hackathon :tada:
+
 ## Team Information
 
 This document constitutes the formal submission for the AMD Open Robotics Hackathon held in Paris, December 12-14, 2025. Our team is proud to present "LeBobLeBuilder," a project that demonstrates rapid, AI-driven robotics development by leveraging AMD AI solutions from edge to cloud and the Hugging Face LeRobot framework, directly aligning with the hackathon's core vision.
@@ -140,11 +142,13 @@ The following section details the structure of our code submission repository.
 
 ### 6 Code submission
 
-This is the directory tree of this repo, you need to fill in the `mission` directory with your submission details.
-
 ```terminal
 AMD_Robotics_Hackathon_2025_ProjectTemplate-main/
 ├── README.md
 └── mission
     ├── <cdemonstration video and 3D model files>
 ```
+
+## Acknowledgments
+
+A huge thanks to AMD, Hugging Face, WOWROBO, TAI, Data Monsters and especially to the organizers for this opportunity and all the hardware that was provided during [this amazing event](https://amdroboticshackathon.datamonsters.com/).
